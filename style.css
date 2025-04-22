@@ -1,0 +1,283 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.banner {
+  background-image: url(allpics/banner/1st\ page.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+
+  @media (max-width: 576px) { 
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+  }
+}
+
+.oleo-script-swash-caps-regular {
+  font-family: "Oleo Script Swash Caps", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 550%;
+
+  @media (max-width: 576px) { 
+    font-size: 300%;
+  }
+}
+
+.oleo-script-swash-caps-bold {
+  font-family: "Oleo Script Swash Caps", system-ui;
+  font-weight: 700%;
+  font-style: normal;
+
+  @media (max-width: 576px) { 
+    font-size: 200%;
+  }
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.384);
+  height: 100vh;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.flexbah {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.flex2 {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+
+  @media (max-width: 576px) { 
+    display: none;
+}
+
+}
+
+
+.flex1 {
+  width: 10px;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li a:hover {
+  color: rgba(3, 70, 3, 0.575);
+}
+
+.flexcont2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 50px;
+
+  @media (max-width: 576px) { 
+    font-size: small;
+    font-weight: lighter;
+  }
+}
+
+.in1 {
+  width: 260px;
+  height: 405px;
+
+  @media (max-width: 576px) { 
+    width: 100%;
+ 
+  }
+}
+
+.in2 {
+  width: 240px;
+  height: 190px;
+  -o-object-fit: cover;
+     object-fit: cover;
+
+     @media (max-width: 576px) { 
+      width: 100%;
+}
+}
+
+.in3 {
+  width: 240px;
+  height: 190px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 25px;
+
+  @media (max-width: 576px) { 
+    width: 100%;
+}
+}
+
+
+#read {
+  border-radius: 100px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgb(218, 13, 13);
+  margin-top: 30px;
+
+
+}
+
+.in4 {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 576px) { 
+   margin-top: 300px;
+  }
+}
+
+.abt {
+  font-family: "Oleo Script Swash Caps", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt {
+  color: rgba(0, 0, 0, 0.603);
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background: white;
+  border-radius: 0px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 2px;
+  padding: 20px;
+  width: 270px;
+}
+
+.card img {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card h4 {
+  margin: 10px 0;
+}
+
+.card p {
+  color: #555;
+}
+
+.stars {
+  color: rgb(184, 35, 35);
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.card button {
+  width: 100px;
+  border-radius: 80px;
+  background-color: pink;
+  padding-left: 10px;
+  color: rgb(179, 33, 33);
+  font-size: 15px;
+  border: none;
+}
+
+.lastsection {
+  background-image: url(allpics/pics6/Frame\ 9\ \(3\).png);
+}
+.main{
+  hr{
+    background-color: rgb(204, 24, 24); 
+    height: 2px; 
+    width: 18%; 
+    border: none; 
+    margin-left: 550px;
+
+    @media (max-width: 576px) { 
+      display: none;
+    }
+  }
+
+ 
+}
+.container2{
+  hr{
+    background-color: rgb(204, 24, 24); 
+    height: 2px; 
+    width: 10%; 
+    border: none; 
+    margin-left: 590px;
+    
+    @media (max-width: 576px) { 
+      display: none;
+    }
+  }
+}
+.block{
+  text-align: center;
+  padding-top: 60px;
+  
+  input{
+      display: inline-block;
+       margin-top: 40px;
+       text-align: center;
+       border: none; 
+       height: 50px; 
+       width: 400px; 
+       border-radius: 40px; 
+       background-color: rgba(255, 255, 255, 0.603); 
+       color: rgb(0, 0, 0); 
+       font-weight: bold;
+
+       @media (max-width: 576px){
+        width: 100%;
+      }
+  }
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
